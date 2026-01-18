@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#d97706"/>
+    </linearGradient>
+    <linearGradient id="ballGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="100%" style="stop-color:#dc2626"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100" height="100" rx="20" fill="url(#bgGrad)"/>
+
+  <!-- Pegs -->
+  <circle cx="50" cy="25" r="5" fill="#1c1917"/>
+  <circle cx="35" cy="40" r="5" fill="#1c1917"/>
+  <circle cx="65" cy="40" r="5" fill="#1c1917"/>
+  <circle cx="25" cy="55" r="5" fill="#1c1917"/>
+  <circle cx="50" cy="55" r="5" fill="#1c1917"/>
+  <circle cx="75" cy="55" r="5" fill="#1c1917"/>
+
+  <!-- Ball -->
+  <circle cx="50" cy="75" r="10" fill="url(#ballGrad)"/>
+  <circle cx="46" cy="71" r="3" fill="#fca5a5" opacity="0.5"/>
+</svg>
