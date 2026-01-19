@@ -218,6 +218,29 @@ const HomePage = () => {
           </div>
         </section>
 
+        {/* About Game Section */}
+        <section className="py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="card-amber p-6">
+              <h2 className="text-2xl font-bold text-stone-100 mb-4 flex items-center gap-2">
+                <Circle className="w-6 h-6 text-amber-400" fill="currentColor" />
+                Understanding Plinko
+              </h2>
+              <div className="space-y-4 text-stone-300">
+                <p>Plinko is BGaming's digital adaptation of the beloved ball-drop game made famous by The Price is Right television show. Since its online release, Plinko has become a casino favorite thanks to its combination of simple mechanics, transparent probability, and the industry's highest RTP at an exceptional 99%. That's just a 1% house edge - far better than slots, roulette, or most other casino games.</p>
+                <p>The gameplay is mesmerizing in its simplicity: drop a ball from the top of a pyramid of pegs and watch physics and chance determine where it lands. Each bounce is independent, creating a natural random distribution that clusters toward center multipliers with occasional exciting trips to the edges where high multipliers await. The visual spectacle keeps players engaged while the math remains completely fair.</p>
+                <p>BGaming's implementation offers meaningful customization through row count (8-16) and risk level (Low, Medium, High). More rows mean more variance as the ball has additional chances to bounce toward extremes. Higher risk levels reshape the payout distribution, concentrating value in edge slots while making center slots less rewarding. The simulator above lets you experience all combinations without wagering.</p>
+                <p>The 99% RTP means Plinko is mathematically one of the fairest casino games available. However, each drop remains independent - streaks of good or bad luck don't predict future outcomes. The ball has no memory of previous drops. Enjoy Plinko for its entertainment value and visual satisfaction, always playing within responsible limits.</p>
+              </div>
+              <div className="mt-4 pt-4 border-t border-amber-500/20 flex flex-wrap gap-2">
+                <span className="px-3 py-1 bg-amber-500/10 rounded-full text-xs text-amber-400">RTP: 99%</span>
+                <span className="px-3 py-1 bg-amber-500/10 rounded-full text-xs text-amber-400">Provider: BGaming</span>
+                <span className="px-3 py-1 bg-amber-500/10 rounded-full text-xs text-amber-400">Max: 1,000x</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Info Section */}
         <section className="py-12 bg-stone-900/30">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
